@@ -87,6 +87,7 @@ public class TutorialManager : MonoBehaviour
         pauseMenu.SetActive(false);
     }
 
+    [System.Obsolete]
     void Update()
     {
         if (!isPaused)
@@ -198,6 +199,7 @@ public class TutorialManager : MonoBehaviour
         _isCheckingForMatch = false;
     }
 
+    [System.Obsolete]
     private void OnCardFlip()
     {
         Card[] allCards = FindObjectsOfType<Card>();
