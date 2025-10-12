@@ -183,6 +183,7 @@ public class GameManager : MonoBehaviour
         return list;
     }
 
+    [System.Obsolete]
     public void OnCardFlipped(Card card)
     {
         if (isCheckingForMatch)
@@ -357,6 +358,7 @@ public class GameManager : MonoBehaviour
 
     }
 
+    [System.Obsolete]
     public void RestartGame()
     {
         _newGame = true;
@@ -387,6 +389,7 @@ public class GameManager : MonoBehaviour
 
     }
 
+    [System.Obsolete]
     private void GameOver()
     {
         isGameOver = true;
